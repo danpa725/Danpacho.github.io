@@ -1,0 +1,72 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.day-start {
+    background-image: url("/dayStart.598922cd.jpg");
+}
+.afternoon {
+    background-image: url("/afternoon.6c469e6a.jpg");
+}
+.midnight {
+    background-image: url("/midnight.51bd3dc0.jpg");
+}
+.deep-night {
+    background-image: url("/deepNight.dce72ae7.jpg");
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+ul {
+    max-height: 30rem;
+}
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+.form-remove {
+    display: none;
+}
+.hide {
+    display: none;
+}
+input {
+    all: unset;
+}
+button {
+    all: unset;
+}
+
+.glass {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.border-make {
+    border-bottom: 3.5px solid white;
+}
+
+.border-bottom {
+    border-bottom: 2px solid black;
+}
+
+.img-setting {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.del-img {
+    background-image: url("/delete-icon.4fd35a78.svg");
+}
+.fin-img {
+    background-image: url("/finishing-icon.df7bdd64.svg");
+}
+.append-img {
+    background-image: url("/clock-icon.d7e42d24.svg");
+}
+
+
+/*# sourceMappingURL=/main.d2070829.css.map */

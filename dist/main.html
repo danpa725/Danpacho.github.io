@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ToDo</title>
+        <style>@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap");
+            @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");</style>
+        <link rel="stylesheet" href="/reset.302ca0b1.css">
+        <link rel="stylesheet" href="/main.d2070829.css">
+        <link rel="stylesheet" href="/tailwind.d98a6323.css">
+    <script src="/reset.302ca0b1.js"></script><script src="/main.d2070829.js"></script><script src="/tailwind.d98a6323.js"></script></head>
+    <body class="flex my-auto max-h-screen main-font">
+        <div class="container my-10 mx-auto p-10 bg-gray-100 bg-opacity-40 border-2 border-gray-100 rounded-md shadow-md glass">
+            <header class="flex flex-row mx-auto mb-8">
+                <h1 class="boot-message hidden w-28 text-white font-normal border-make text-center"></h1>
+                <form class="user-form hidden w-28 font-normal text-gray-400 border-make">
+                    <input type="text" placeholder="What is your name" class="placeholder-opacity-100 font-normal">
+                </form>
+
+                <h1 class="clock-print w-56 tracking-widest text-4xl font-normal mx-auto text-center"></h1>
+
+                <h1 class="flex flex-col weather-print w-28 text-white font-normal border-make text-center js-weather">
+                    Weather Loading ...
+                </h1>
+            </header>
+            <div class="flex flex-row justify-between">
+                <div class="TODO w-6/12 mr-6">
+                    <form class="todo-form w-full border-bottom pb-4">
+                        <input 0="" type="text" placeholder="Do" id="todo-input" class="text-2xl w-full text-center placeholder-black placeholder-opacity-100">
+                    </form>
+                    <ul class="todo-list flex flex-col overflow-y-scroll font-semibold"></ul>
+                </div>
+                <div class="APPEND w-6/12 ml-6">
+                    <h1 class="text-2xl text-center w-full text-black pb-4 border-bottom">
+                        Append
+                    </h1>
+                    <ul class="todo-fin flex flex-col overflow-y-scroll font-semibold"></ul>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="reset-user absolute bottom-2 right-10 p-1 mt-10 sm\:-bottom-0 text-sm text-white bg-red-500 hover:bg-red-700 focus:ring-2 focus:ring-red-400 shadow-md rounded-md">
+            RESET USER❗
+        </button>
+    </body>
+    <script src="/setBackgroundImg.f02014b5.js"></script>
+    <script src="/clock.8b29d8f3.js"></script>
+    <script src="/getUserName.961be51e.js"></script>
+    <script src="/toDo.7ca1585d.js"></script>
+    <script src="/weatherApi.39e7aee6.js"></script>
+</html>
